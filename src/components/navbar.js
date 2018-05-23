@@ -25,7 +25,7 @@ class Navbar extends Component {
                   <button className="nav-button" data-toggle="collapse" data-target="#navbarNav">
                     <div>
                       <i className="ion-md-person nav-icons"></i>
-                      <h5 className="nav-title">About</h5>
+                      <h5 className="nav-title">Who am i?</h5>
                     </div>
                   </button>
                 </NavLink>
@@ -35,7 +35,7 @@ class Navbar extends Component {
                   <button className="nav-button" data-toggle="collapse" data-target="#navbarNav">
                     <div>
                       <i className="ion-md-paper nav-icons"></i>
-                      <h5 className="nav-title">Resume</h5>
+                      <h5 className="nav-title">My Resume</h5>
                     </div>
                   </button>
                 </NavLink>
@@ -45,7 +45,7 @@ class Navbar extends Component {
                   <button className="nav-button" data-toggle="collapse" data-target="#navbarNav">
                     <div>
                       <i className="ion-md-mail nav-icons"></i>
-                      <h5 className="nav-title">Contact</h5>
+                      <h5 className="nav-title">Contact Me</h5>
                     </div>
                   </button>
                 </NavLink>

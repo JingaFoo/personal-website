@@ -8,7 +8,7 @@ class Home extends Component {
         <div className="container d-flex justify-content-center">
           <div className="row">
           <div className="statements d-flex justify-content-center">
-            <span>Let&#39;s Build</span><span> Steady</span>
+            <span>Let&#39;s Build</span><span> Stable</span>
           </div>
             <div className="col-12">
               <div className="dev-title d-flex justify-content-center">
@@ -19,7 +19,7 @@ class Home extends Component {
               <div className="dev-box">
                 <div className="dev-profile">
                   <div className="dev-profile-icon-box d-flex justify-content-center">
-                    <img className="dev-profile-icon" src="./Calvin.png" />
+                    <img className="dev-profile-icon" src="./Calvin.png" alt=""/>
                   </div>
                 </div>
                 <div className="dev-name">
