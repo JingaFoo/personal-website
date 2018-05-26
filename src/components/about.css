@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-section {
+.about section {
    padding: 80px 0;
    font-family: 'Merriweather', 'Arial', serif;
 }
@@ -15,6 +15,10 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Oswald', 'Arial', sans-serif;
+}
+
+.lead {
+  text-align: left;
 }
 
 .jumbotron {
@@ -87,4 +91,24 @@ h3 {
 
 .love-jumbo {
   color: #f1dcc9;
+}
+
+/*/ -------------------------------------------------------------- /*/
+/*/ -------------------- MEDIA-QUERIES --------------------------- /*/
+/*/ -------------------------------------------------------------- /*/
+
+@media only screen and (max-width: 576px) {
+  h1,
+  h2,
+  h3 {
+    font-weight: 300;
+    font-size: 250% !important;
+  }
+
+  .jumbotron {
+    padding: 2rem 0;
+  }
+  .lead {
+    font-size: 18px !important;
+  }
 }

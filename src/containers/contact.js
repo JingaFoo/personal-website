@@ -65,7 +65,7 @@ class Contact extends Component {
         </div>
         <div className="container d-flex align-items-center">
           <div className="row form-box">
-            <div className="col-12">
+            <div>
               <form className="contact-form" method="POST" action="https://formspree.io/calvinmwariama@gmail.com">
                 <Field label="Message" name="message" component={this.renderMessageField} />
                 <div className="form-row">

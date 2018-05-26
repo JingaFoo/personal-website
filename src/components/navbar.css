@@ -100,8 +100,10 @@
 /*/ ---------------------------------------------------------- /*/
 
 @media only screen and (max-width: 576px) {
+  .nav-content {
+    margin-bottom: 30px;
+  }
   .drop-button {
     max-width: 60%;
-
   }
 }

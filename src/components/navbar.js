@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <div className="container drop-down-content justify-content-center">
+        <div className="container drop-down-content d-block d-sm-none justify-content-center">
           <button className="drop-button" data-toggle="collapse" data-target="#navbarNav">
             <div>
               <i className="ion-md-menu drop-down">More stuff!</i>
@@ -93,6 +93,13 @@ class Navbar extends Component {
               </button>
             </NavLink>
           </div>
+        </div>
+        <div className="container drop-down-content d-none d-sm-block">
+          <button className="drop-button" data-toggle="collapse" data-target="#navbarNav">
+            <div>
+              <i className="ion-md-menu drop-down">More stuff!</i>
+            </div>
+          </button>
         </div>
       </nav>
     );

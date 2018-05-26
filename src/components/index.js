@@ -27,7 +27,7 @@ class Home extends Component {
                 </div>
                 <div className="relevant-links">
                   <ul>
-                    <li><a href="https://github.com/JingaFoo" target="_blank"><i className="icon ion-logo-github link-icons"></i></a></li>
+                    <li><a href="https://github.com/JingaFoo"><i className="icon ion-logo-github link-icons"></i></a></li>
                   </ul>
                 </div>
               </div>

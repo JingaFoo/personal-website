@@ -9,6 +9,11 @@ html {
   height: 100%;
 }
 
+section {
+   padding: 20px 0;
+   font-family: 'Merriweather', 'Arial', serif;
+}
+
 body {
   background: #6c2d2c;
   color: #5d5d5d;

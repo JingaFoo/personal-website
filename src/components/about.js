@@ -6,11 +6,11 @@ import './about.css';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="about">
         <section className="section-introduction">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
+            <div className="">
+              <div className="">
                 <div className="jumbotron introduction-jumbo">
                   <h1 className="display-4">Greetings, im Calvin...</h1>
                   <hr className="my-4" />
@@ -25,8 +25,8 @@ class About extends Component {
 
         <section className="section-origins">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
+            <div>
+              <div>
                 <div className="jumbotron">
                   <h1 className="display-4">Origins</h1>
                   <hr className="my-4" />
@@ -53,8 +53,8 @@ class About extends Component {
 
         <section className="section-immigration">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
+            <div className="">
+              <div className="">
                 <div className="jumbotron immigration-jumbo">
                   <h1 className="display-4">USA! USA! USA!</h1>
                   <hr className="my-4" />
@@ -79,8 +79,8 @@ class About extends Component {
 
         <section className="section-college">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
+            <div className="">
+              <div className="">
                 <div className="jumbotron">
                   <h1 className="display-4">College Life</h1>
                   <hr className="my-4" />
@@ -106,8 +106,8 @@ class About extends Component {
 
         <section className="section-swap">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
+            <div className="">
+              <div className="">
                 <div className="jumbotron swap-jumbo">
                   <h1 className="display-4">Swap it, drop it, or grind it out</h1>
                   <hr className="my-4" />
@@ -132,8 +132,8 @@ class About extends Component {
 
         <section className="section-online-class">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
+            <div className="">
+              <div className="">
                 <div className="jumbotron">
                   <h1 className="display-4">Do it all online</h1>
                   <hr className="my-4" />
@@ -159,8 +159,8 @@ class About extends Component {
 
         <section className="section-love">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
+            <div className="">
+              <div className="">
                 <div className="jumbotron love-jumbo">
                   <h1 className="display-4">Do what you love</h1>
                   <hr className="my-4" />

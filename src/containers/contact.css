@@ -47,5 +47,11 @@
 /*/ ------------------------------------------------------------ /*/
 
 @media only screen and (max-width: 576px) {
+  .contact-form {
+    padding: 50px 20px;
+  }
 
+  .form-control {
+    font-size: 80%;
+  }
 }
