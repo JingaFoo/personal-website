@@ -16,7 +16,7 @@
 }
 
 .nav-content {
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 150px;
 }
 
@@ -62,20 +62,20 @@
 /*/ -------------------- DROP DOWN ----------------------- /*/
 /*/ ------------------------------------------------------ /*/
 
+.drop-down-content {
+  text-align: center;
+  margin: 30px auto;
+}
+
 .drop-button {
   border: 0;
   outline: none;
   border-radius: 10px 0;
   padding: 10px 0;
-  font-size: 25px;
-  font-weight: 300;
   cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: .1em;
   max-width: 40%;
   width: 100%;
   background-color: inherit;
-  color: #f1dcc9;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -webkit-appearance: none;
@@ -89,9 +89,19 @@
 .drop-down {
   cursor: pointer;
   font-size: 145%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #f1dcc9;
 }
 
-.drop-down-content {
-  text-align: center;
-  margin: 30px auto;
+/*/ ---------------------------------------------------------- /*/
+/*/ -------------------- MEDIA-QUERIES ----------------------- /*/
+/*/ ---------------------------------------------------------- /*/
+
+@media only screen and (max-width: 576px) {
+  .drop-button {
+    max-width: 60%;
+
+  }
 }
