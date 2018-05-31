@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="row">
           <div className="col-12">
             <div className="jumbotron introduction-jumbo">
-              <h1 className="display-4">Feel free to drop a what&#39;s up!</h1>
+              <h1 className="display-4">Feel free to contact me</h1>
               <hr className="my-4" />
             </div>
           </div>

@@ -13,6 +13,37 @@
   margin-top: 30px;
 }
 
+label {
+  font-size: 90%;
+}
+
+span {
+  font-size: 80%;
+}
+
+.required {
+  display: inline-block;
+  color: #700;
+  margin-left: 5px;
+}
+
+.isValid {
+  display: none;
+}
+
+.custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid {
+  border-color: #ced4da;
+}
+
+.form-box button[type="submit"]:hover[disabled] {
+  background-color: #700;
+}
+
+.form-box button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .form-box .submit-button {
   background-color: inherit;
   border-radius: 10px;
